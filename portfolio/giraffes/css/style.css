@@ -108,14 +108,12 @@
             }
             .product-name {
                 text-align: center;
-                font-size: 80px;
             }
             .head-img {
                 width: 100%;
                 height: 300px;
             }
             .product-list {
-                font-size: 24px;
                 line-height: 38px;
             }
         }
@@ -167,14 +165,12 @@
             }
             .about-name {
                 text-align: center;
-                font-size: 40px;
             }
             .wrapper_about-descript {
                 width: 100%;
             }
             .about-descript {
                 max-width: 100%;
-                font-size: 20px;
                 line-height: 30px;
             }
             .about-video {
@@ -233,9 +229,6 @@
             .dignity {
                 padding: 50px 30px 50px;
             }
-            .dignity-name {
-                font-size: 40px;
-            }
             .wrapper_dignity-item {
                 display: flex;
                 flex-direction: column;
@@ -247,8 +240,6 @@
             }
             .dignity-item {
                 margin: 0;
-                font-size: 20px;
-                line-height: 30px;
                 padding: 42px 0 12px 0;
                 background-position-x: center;
                 background-position-y: top;
@@ -310,15 +301,14 @@
                 margin-top: 30px;
                 width: 100%;
             }
+            .screenshots-item_img {
+                display: block;
+                float: none;
+                margin: 0 auto;
+            }
             .screenshots-item_head {
-                font-size: 34px;
-            }
-            .screenshots-item_decsript {
-                font-size: 20px;
-                line-height: 30px;
-            }
-            .screenshots-name {
-                font-size: 40px;
+                margin-top: 20px;
+                text-align: center;
             }
         }
         
@@ -412,14 +402,6 @@
             .reviews-item_descript {
                 width: 100%;
             }
-            .reviews-name {
-                font-size: 40px;
-            }
-            .reviews-item_text,
-            .reviews-item_author {
-                font-size: 20px;
-                line-height: 25px;
-            }
         }
         
         .wrapper_buy-item {
@@ -506,7 +488,7 @@
             }
             .buy-item {
                 margin: 0 0 20px 0;
-                width: 70%;
+                width: 90%;
             }
         }
         
