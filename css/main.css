@@ -101,6 +101,7 @@ main {
     line-height: 22px;
 }
 
+.education-items,
 .experience-items {
     font-size: 12px;
     line-height: 18px;
@@ -146,6 +147,7 @@ main {
     background-color: #0081c2;
 }
 
+.education,
 .experience,
 .portfolio {
     width: 100%;
@@ -159,6 +161,7 @@ main {
     margin: 0 auto;
 }
 
+.education h2,
 .about,
 .experience h2,
 .portfolio h2 {
