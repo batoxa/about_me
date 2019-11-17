@@ -141,6 +141,7 @@
     }
     .how-we-works p,
     .our-creative p {
+        text-align: center;
         margin-top: 10px;
         margin-bottom: 20px;
     }
@@ -174,6 +175,7 @@
         margin: 15px auto 0;
     }
     .works-item__description {
+        text-align: center;
         margin: 15px 0;
     }
     .works-btn {
