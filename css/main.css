@@ -200,7 +200,12 @@ main {
 }
 
 .screen3 {
+    margin-right: 20px;
     background-image: url(../img/medical.jpg);
+}
+
+.screen4 {
+    background-image: url(../img/photograph.jpg);
 }
 
 @media all and (max-width: 767px) {
