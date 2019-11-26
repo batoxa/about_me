@@ -1,0 +1,80 @@
+body {
+    background: url(../img/bg.jpg) repeat center/auto;
+    background-color: #000000cc;
+    background-blend-mode: color;
+}
+
+.header__container {
+    height: auto;
+    padding: 0 calc((100% - 1400px) / 2);
+    background-image: linear-gradient(0deg, #000000 0%, #000000 50%, #ffffff 90%, #ffffff 100%), url(../img/bg.jpg);
+    background-blend-mode: screen;
+    overflow: hidden;
+}
+
+.header {
+    margin: 0 auto;
+    position: relative;
+    padding-top: 35px;
+}
+
+.portfolio__container {
+    padding: 0 calc((100% - 1400px) / 2) 0;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: auto;
+    background-image: linear-gradient(0deg, #000000 0%, #000000 50%, #575757 75%, #575757 100%), url(../img/bg.jpg);
+    background-blend-mode: screen;
+    overflow: hidden;
+}
+
+.portfolio {
+    position: relative;
+    background: url(../img/main-portfoliobg.png) no-repeat center top/auto;
+    padding-top: 547px;
+    margin: 0 auto;
+}
+
+.work__container {
+    padding: 0 calc((100% - 1400px) / 2);
+    background-color: #070707;
+    overflow: hidden;
+}
+
+.work {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 220px;
+    padding-bottom: 50px;
+    background: url(../img/bgwork.jpg) no-repeat center/cover;
+}
+
+.testimonials__container {
+    padding: 0 calc((100% - 1400px) / 2);
+    background-color: #161413;
+    overflow: hidden;
+}
+
+.testimonials {
+    position: relative;
+    padding: 220px 20px 50px;
+    margin: 0 auto;
+    background: url(../img/bgtestimonials.jpg) no-repeat center/cover;
+}
+
+.social {
+    background-color: #019edb;
+    overflow: hidden;
+}
+
+.footer__container {
+    padding: 0 calc((100% - 1200px) / 2);
+    background-image: linear-gradient(0deg, #000000 0%, #000000 100%), url(../img/bg.jpg);
+    background-blend-mode: screen;
+    overflow: hidden;
+}
+
+.footer {
+    padding: 155px 150px 150px;
+    position: relative;
+}

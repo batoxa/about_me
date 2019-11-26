@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/ico.png" type="image/png">
+    <title>Photographer</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/marking.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/animation.css">
+</head>
+
+<body>
+    <!-- preload -->
+    <div id="loading-layer"></div>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const elem = document.querySelector("#loading-layer");
+            elem.remove();
+        });
+    </script>
+
+    <!-- head -->
+    <header class="header__container">
+        <div class="header">
+            <div class="triangle">
+                <img class="logo" src="img/logo.png" alt="logo">
+                <svg width="100%" height="100%" viewBox="0 0 423 185">
+                <polygon points="0,0 185,185 365,0" style="fill: #019edb"/>
+                <polygon points="365,0 423,0 343,81 315,51" style="fill: #1b1b1b"/>
+                </svg>
+            </div>
+            <div class="grey-rhomb">
+                <svg width="100%" height="100%" viewBox="0 0 99 99">
+                        <polygon points="0,50 50,0 99,50 50,99" style="fill: #c7c7c7"/>
+                    </svg>
+            </div>
+
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#work">How it work?</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#social">Social</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+
+            <div class="head-main-photo">
+                <svg width="100%" height="100%" viewBox="0 0 99 99">
+              <pattern id="img1" patternUnits="userSpaceOnUse" width="100" height="100">
+                <image xlink:href="img/head1.jpg" x="0" y="0" width="100" height="100"/>
+              </pattern>
+            <polygon points="0 50, 50 0, 99 50, 50 99, " style="fill:url(#img1)"/>
+              </svg>
+            </div>
+            <div class="head-small-photo">
+                <svg width="100%" height="100%" viewBox="0 0 99 99">
+                <pattern id="img2" patternUnits="userSpaceOnUse" width="100" height="100">
+                <image xlink:href="img/head2.jpg" x="0" y="0" width="100" height="100"/>
+                </pattern>
+                <polygon points="0 50, 50 0, 99 50, 50 99, " style="fill:url(#img2)"/>
+                </svg>
+            </div>
+            <div class="rhomb">
+                <svg width="100%" height="100%" viewBox="0 0 99 99">
+            <polygon points="0,50 50,0 99,50 50,99"/>
+             </svg>
+            </div>
+            <div class="blue-rhomb-title__text">
+                <h2>1.</h2>
+                <h3>photo services</h3>
+                <p>The best way to make a living from photography is to be a great “deal”<br/>for your ... Why you must be<br/> the cheapest photographer<br/> in town in order<br/> to be successful.</p>
+            </div>
+
+
+            <div class="blue-square"></div>
+
+            <div class="dark-rhomb">
+                <svg width="100%" height="100%" viewBox="0 0 99 99">
+                    <polygon points="0,50 50,0 99,50 50,99"/>
+                </svg>
+            </div>
+            <div class="dark-rhomb-title__text">
+                <h2>We are&nbsp;Best</h2>
+                <p>Photographer portfolio sites showcase all works, provide biographical information regarding the photographer, often include a contact page, and are perfect for inspiration and creative influence.</p>
+                <a href="#">READ MORE</a>
+            </div>
+            <div class="header-bottom-text">
+                <h2>Why Choose us</h2>
+                <h3>Quickly. Qualitatively. Cheap.</h3>
+                <div class="optional-info">
+                    <div class="optional-info__block">
+                        <h3>Feature</h3>
+                        <p>Feature photography is one of three major categories of work captured by working news. A feature photograph might be described as a news image that supplements the headline stories.</p>
+                    </div>
+                    <div class="line">
+                        <div class="line_item"></div>
+                        <div class="line_item"></div>
+                    </div>
+                    <div class="optional-info__block">
+                        <h3>About us</h3>
+                        <p>Fashion Photography is a genre of photography which is devoted to displaying clothing and other fashion items.Over time, fashion photography has developed its own aesthetic.</p>
+                    </div>
+                </div>
+                <a href="#">READ MORE</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- portfolio -->
+    <section class="portfolio__container">
+        <div class="portfolio" id="portfolio">
+            <div class="porftolio__photo">
+                <div class="portfolio-photo__left">
+                    <svg width="100%" height="100%" viewBox="0 0 99 99">
+                        <pattern id="img4" patternUnits="userSpaceOnUse" width="100" height="100">
+                            <image xlink:href="img/portfolioleft.jpg" x="0" y="0" width="100" height="100"/>
+                        </pattern>
+                        <polygon points="0 50, 50 0, 99 50, 50 99, " style="fill:url(#img4)"/>
+                    </svg>
+                </div>
+                <div class="portfolio-photo__rigth">
+                    <svg width="100%" height="100%" viewBox="0 0 99 99">
+                        <pattern id="img5" patternUnits="userSpaceOnUse" width="100" height="100">
+                            <image xlink:href="img/portforigth.jpg" x="0" y="0" width="100" height="100"/>
+                        </pattern>
+                        <polygon points="0 50, 50 0, 99 50, 50 99, " style="fill:url(#img5)"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="portfolio__title">
+                <div class="portfolio-title__panel">
+                    <svg width="100%" height="100%" viewBox="0 0 99 99">
+                        <polygon points="0,50 50,0 99,50 50,99"/>
+                    </svg>
+                </div>
+                <div class="portfolio__opacity">
+                    <svg width="100%" height="100%" viewBox="0 0 99 99">
+                            <polygon points="0,50 50,0 99,50 50,99"/>
+                        </svg>
+                    <h2>2.</h2>
+                </div>
+
+                <div class="portfolio-title__text">
+                    <h2>PORTFOLIO</h2>
+                    <p>Photographer portfolio sites showcase all works, provide biographical information regarding the photographer, often include a contact page, and are perfect for inspiration and creative influence.</p>
+                    <a href="#">READ MORE</a>
+                </div>
+            </div>
+
+            <div class="portfolio__description">
+                <h2>Artist's portfolio</h2>
+                <p>A photography portfolio can focus on a single subject. It can be a collection of photographs taken with a certain type of camera, in one geographic area, of one person or a group of people, only black & white or sepia photos, a special
+                    event, etc. Many photographers use portfolios to show their best work when looking for jobs in the photography industry. For example, wedding photographers may put together a book of their best wedding photos to show to engaged couples
+                    who are looking for a wedding photographer. Photojournalists may take a collection of their best freelance work with them when looking for a job.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- how it work -->
+    <section class="work__container">
+        <div class="work" id="work">
+            <div class="work__opacity">
+                <svg width="100%" height="100%" viewBox="0 0 99 99">
+                                <polygon points="0,50 50,0 99,50 50,99"/>
+                            </svg>
+                <h2>3.</h2>
+            </div>
+            <div class="work__title">How it work?</div>
+            <div class="work__text">How Cameras Work</div>
+            <div class="work__table">
+                <div class="work-table__item">
+                    <h4>Photo Sharing</h4>
+                    <p>When you want to share a photo or a gallery with friends, family, a message board, or even the entire Internet.</p>
+                </div>
+                <div class="line">
+                    <div class="line_item"></div>
+                    <div class="line_item"></div>
+                </div>
+                <div class="work-table__item">
+                    <h4>Photo Settings</h4>
+                    <p>In this article and video, you will discover the best camera settings for portrait photography for taking photos in natural light.</p>
+                </div>
+                <div class="line">
+                    <div class="line_item"></div>
+                    <div class="line_item"></div>
+                </div>
+                <div class="work-table__item">
+                    <h4>Photo Rating</h4>
+                    <p>Each image has a star rating associated with it, ranging from 1 to 5. This rating is meant to evaluate the quality of the image.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials__container">
+        <div class="testimonials" id="testimonials">
+            <div class="testimonials__opacity">
+                <svg width="100%" height="100%" viewBox="0 0 99 99">
+                                        <polygon points="0,50 50,0 99,50 50,99"/>
+                                    </svg>
+                <h2>4.</h2>
+            </div>
+            <div class="testimonials__title">Testimonials</div>
+            <div class="testimonials__text">client feedback</div>
+            <div class="testimonials__table">
+                <div class="testimonials-table__item">
+                    <p>"Working with Paige was one of the most pleasant experiences of planning our wedding. She has so much personality and is an amazing photographer. She is able to capture lovely candid moments that show emotion and love."</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="line">
+                    <div class="line_item"></div>
+                    <div class="line_item"></div>
+                </div>
+                <div class="testimonials-table__item">
+                    <p>"She was absolutely amazing! Not only did our engagement photos rock, she made our wedding day go so smooth. She really helped us keep schedule and have fun the entire time.Best part was she made my wife smile."</p>
+                    <a href="#">Read more</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Social -->
+    <div class="social" id="social">
+        <ul class="social-items">
+            <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            <li><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+            <li><i class="fa fa-vk" aria-hidden="true"></i></li>
+            <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
+            <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+            <li><i class="fa fa-digg" aria-hidden="true"></i></li>
+            <li><i class="fa fa-paper-plane" aria-hidden="true"></i></li>
+        </ul>
+    </div>
+
+    <!-- Get in Touch -->
+    <footer class="footer__container">
+        <div class="footer" id="contact">
+            <div class="footer__opacity">
+                <svg width="100%" height="100%" viewBox="0 0 99 99">
+                    <polygon points="0,50 50,0 99,50 50,99"/>
+                </svg>
+                <h2>5.</h2>
+            </div>
+            <div class="footer__title">Get in Touch</div>
+            <div class="footer__address">
+                <div class="address__item">
+                    <div class="address_title">EMAIL</div>
+                    <p>free@psd.in.ua<br/>free@psd.in.ua</p>
+                </div>
+                <div class="address__item">
+                    <div class="address_title">CALL US!</div>
+                    <p>+123 456 7890<br/>+123 456 7890</p>
+                </div>
+                <div class="address__item">
+                    <div class="address_title">ADDRESS</div>
+                    <p>123, Main&nbsp;Road, New&nbsp;City,<br/>My&nbsp;Country, 123456</p>
+                </div>
+            </div>
+            <div class="footer__triangle">
+                <svg width="100%" height="100%" viewBox="0 0 99 50">
+                        <polygon points="0,50 50,0 99,50" style="fill: #019edb"/>
+
+                </svg>
+                <a href="">UP</a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
