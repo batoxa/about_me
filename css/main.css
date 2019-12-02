@@ -171,7 +171,6 @@ main {
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin: 0 auto;
 }
 
 .education__title,
