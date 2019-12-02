@@ -188,23 +188,27 @@ main {
     transition: all .5s ease-out;
 }
 
-.screen1 {
+.maket_screen1 {
     background-image: url(../img/game.jpg);
     margin-right: 20px;
 }
 
-.screen2 {
+.maket_screen2 {
     background-image: url(../img/giraffes.jpg);
     margin-right: 20px;
 }
 
-.screen3 {
+.maket_screen3 {
     margin-right: 20px;
     background-image: url(../img/medical.jpg);
 }
 
-.screen4 {
+.maket_screen4 {
     background-image: url(../img/photograph.jpg);
+}
+
+.maket_screen5 {
+    background-image: url(../img/concomitant.jpg);
 }
 
 @media all and (max-width: 767px) {
