@@ -272,4 +272,7 @@ main {
     .experience__title {
         margin-bottom: 0;
     }
+    .disable {
+        display: none;
+    }
 }
